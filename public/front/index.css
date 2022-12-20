@@ -1,0 +1,62 @@
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+.error {
+    color: red;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e8e8e8;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+.card-img {
+    height: 220px;
+    width: 100%;
+    object-fit: cover;
+}
+.card-footer {
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 1px;
+    width: 100%;
+    padding: 10px;
+}
+
+.text-center {
+    color: #fff;
+}
+
+.card-img-overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+}
+.blog-search {
+    width: 580px;
+}
+.input-box {
+    left: 14%;
+    position: relative;
+}
+.filter-date {
+    width: 140px;
+}
+.filter-asc-desc {
+    width: 160px;
+}
+
+.card-footer{
+    cursor: pointer
+}
