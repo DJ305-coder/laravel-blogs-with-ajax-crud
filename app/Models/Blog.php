@@ -8,6 +8,8 @@ use Storage;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use App\Models\User;
 use App\Models\Comment;
+use App\Models\Rating;
+use App\Models\Like;
 use DB;
 class Blog extends Model
 {
@@ -68,7 +70,14 @@ class Blog extends Model
         return $blogs->paginate(5);
     }
 
-    public function BlogComments(){
-        return $this->hasMany(Commen::class);
+    public function comments(){
+        return $this->hasMany(Comment::class)->whereNull('parent_id');
     }
+
+    public function likes(){
+        return $this->hasMany(Like::class);
+    }
+
+
+   
 }

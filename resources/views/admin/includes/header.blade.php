@@ -47,7 +47,7 @@
   <!-- SIMPLE-LINE-ICONS -->
   <link rel="stylesheet" href="{{URL::asset('admin_panel/commonarea/plugins/simple-line-icons/css/simple-line-icons.css')}}">
   <!-- FONT AWESOME -->
-  <!-- <link rel="stylesheet" href="{{URL::asset('admin_panel/commonarea/plugins/font-awesome/font-awesome.min.css')}}"> -->
+  <link rel="stylesheet" href="{{URL::asset('admin_panel/commonarea/plugins/font-awesome/font-awesome.min.css')}}">
   <!-- TEXT EDITOR -->
   <link rel="stylesheet" href="{{URL::asset('admin_panel/commonarea/plugins/bootstrap3-wysihtml5-npm/dist/css/bootstrap3-wysihtml5.min.css')}}">
   <!-- SUMMERNOTE -->
